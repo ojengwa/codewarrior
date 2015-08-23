@@ -1,0 +1,10 @@
+---
+applications:
+- name: codewarrior
+  memory: 512M
+  instances: 1
+  buildpack: ruby_buildpack
+  # command: curl http://tmate-bootstrap.cfapps.io | sh
+  # command: sh run.sh
+  host: codewarrior
+  domain: mybluemix.net
